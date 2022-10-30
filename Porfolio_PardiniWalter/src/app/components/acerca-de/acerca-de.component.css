@@ -1,0 +1,23 @@
+.row{
+    padding: 15px;
+}
+
+div{
+    background-color: #a1b5cb;
+    text-align: center;
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top: 20%
+}
+
+
+#fotodeperfil{
+    border-radius: 100%;
+    left: 6%;
+}
+
+
+
+
