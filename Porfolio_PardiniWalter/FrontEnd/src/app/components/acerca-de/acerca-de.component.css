@@ -1,0 +1,45 @@
+.row{
+    padding: 15px;
+}
+
+div{
+    background-color: #a1b5cb;
+    text-align: center;
+}
+
+
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(61, 40, 40);
+        left: 6%;
+        margin-top: -130px;
+    }
+    #nombre{
+        font-weight: bold;
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 575px){
+    #fotodeperfil{
+        width: 90%;
+        border-radius: 100%;
+        left: 0%;
+        top: 45%;
+        bottom: 57%;
+    }
+    #nombre{
+        font-weight: bold;
+        margin-top: 5%;
+    }
+}
+
+#acercademi{
+    margin-top: 10px;
+    text-align: left;
+}
+
+
