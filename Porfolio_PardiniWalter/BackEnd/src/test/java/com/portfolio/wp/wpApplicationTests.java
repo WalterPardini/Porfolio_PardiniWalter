@@ -1,10 +1,10 @@
-package com.portfolop.mgb;
+package com.portfolio.wp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MgbApplicationTests {
+class wpApplicationTestsn {
 
 	@Test
 	void contextLoads() {
