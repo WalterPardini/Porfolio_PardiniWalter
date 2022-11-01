@@ -9,11 +9,11 @@ import { persona } from '../model/persona.model';
 })
 
 export class PersonaService {
-  URL = environment.URL + 'personas/';
+  personaURL = 'https://bkdwalter.herokuapp.com/personas/';
 
   constructor(private http: HttpClient) { }
 
   public getPersona(): Observable<persona>{
-    return this.http.get<persona>(this.URL+ 'traer/perfil');
+    return this.http.get<persona>(this.personaURL+ 'traer/perfil');
   }
 }
